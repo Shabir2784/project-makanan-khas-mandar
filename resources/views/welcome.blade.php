@@ -95,17 +95,21 @@
     <div class="col">
       <div class="card h-100 shadow-sm">
         <img src="{{ asset('imgg/' . urlencode($item['gambar'])) }}" class="card-img-top" alt="{{ $item['nama'] }}">
-        <div class="card-body">
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">{{ $item['nama'] }}</h5>
           <p class="text-success fw-bold">Rp{{ number_format($item['harga'], 0, ',', '.') }}</p>
           <p><strong>Stok:</strong> {{ $item['stok'] }}</p>
           <p class="text-muted small">{{ $item['deskripsi'] }}</p>
+          <div class="mt-auto">
+            <a href="#" class="btn btn-success w-100">Lihat Detail</a>
+          </div>
         </div>
       </div>
     </div>
     @endforeach
   </div>
 </section>
+
 
 <!-- Footer -->
 <footer class="bg-success text-white text-center py-3 mt-5">
