@@ -106,7 +106,7 @@
                 const val = parseInt(this.value);
                 if (val > max) {
                     this.setCustomValidity(`Maksimal pembelian adalah ${max} item`);
-                } else if (val < 1) {
+                } else if (val < 1) { 
                     this.setCustomValidity("Minimal pembelian adalah 1 item");
                 } else {
                     this.setCustomValidity('');

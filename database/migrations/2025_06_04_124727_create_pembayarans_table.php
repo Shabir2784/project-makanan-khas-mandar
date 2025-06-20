@@ -17,8 +17,6 @@ return new class extends Migration
             $table->decimal('jumlah', 10, 2);
             $table->string('metode');
             $table->enum('status', ['belum dibayar', 'sudah dibayar'])->default('belum dibayar');
-
-            // Tambahan untuk sistem escrow
             $table->string('bukti_pembayaran')->nullable();
             $table->enum('verifikasi_admin', ['menunggu', 'disetujui', 'ditolak'])->default('menunggu');
             $table->timestamp('verifikasi_at')->nullable();

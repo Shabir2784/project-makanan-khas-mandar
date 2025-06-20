@@ -194,7 +194,6 @@ public function checkoutLangsung(Request $request)
             'subtotal' => $subtotal,
         ];
     }
-
     return view('pembeli.checkoutLangsung', compact('dataCheckout', 'grandTotal', 'pengguna'));
 }
 

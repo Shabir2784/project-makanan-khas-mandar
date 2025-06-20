@@ -22,7 +22,7 @@ Framework Web Based<br/></p>
     <ul>
       <li>Mengelola data pengguna (CRUD user)</li>
       <li>Mengelola role dan hak akses</li>
-      <li>Mengelola semua produk dan koleksi</li>
+      <li>Mengelola semua produk</li>
       <li>Melihat semua pesanan dan status</li>
       <li>Melihat laporan transaksi</li>
     </ul>
@@ -35,7 +35,6 @@ Framework Web Based<br/></p>
   <li><strong>Fitur:</strong>
     <ul>
       <li>CRUD produk milik sendiri (produks)</li>
-      <li>Mengelola koleksi produk</li>
       <li>Melihat pesanan masuk terkait produknya (pesanans, detail_pesanans)</li>
       <li>Update status pengiriman (pengirimans)</li>
       <li>Melihat pembayaran pesanan miliknya (pembayarans)</li>
