@@ -17,9 +17,9 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
   <div class="container">
-    <a class="navbar-brand fw-bold text-success" href="#">TokoIkan</a>
+    <a class="navbar-brand fw-bold text-success" href="#">Toko Makanan Khas Mandar</a>
     <form class="d-flex ms-auto me-3 w-50">
-      <input class="form-control me-2" type="search" placeholder="Cari ikan hias..." aria-label="Search">
+      <input class="form-control me-2" type="search" placeholder="Cari makanan..." aria-label="Search">
       <button class="btn btn-success" type="submit">Cari</button>
     </form>
     <a href="{{ route('login') }}" class="btn btn-outline-success me-2">login</a>
@@ -35,59 +35,72 @@
 <!-- Hero -->
 <section class="py-5 bg-white text-center">
   <div class="container">
-    <h1 class="display-5 fw-bold">Selamat Datang di Toko Ikan Hias</h1>
-    <p class="lead text-muted">Temukan ikan hias asli Indonesia untuk mempercantik akuarium Anda.</p>
+    <h1 class="display-5 fw-bold">Selamat Datang di Toko Makanan Khas Mandar</h1>
+    <p class="lead text-muted">Temukan makanan khas mandar asli disini.</p>
   </div>
 </section>
 
-<!-- Produk -->
 <section class="container py-5">
-  <h3 class="mb-4">Katalog Ikan Hias Lokal</h3>
-  <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+  <h3 class="mb-4">Katalog Makanan Khas Mandar</h3>
+  <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-md-4">
     @php
     $produkList = [
       [
-        'nama' => 'Cupang Serit',
-        'harga' => 35000,
-        'stok' => 15,
-        'gambar' => 'IkanCupang.jpg',
-        'deskripsi' => 'Jenis cupang lokal dengan sirip berjumbai dan warna atraktif.'
+        'nama' => 'Jepa dan Bau Peapi',
+        'harga' => 10000,
+        'stok' => 12,
+        'gambar' => 'jepa.jpg',
+        'deskripsi' => 'Jepa adalah roti sagu khas Mandar yang biasanya disantap dengan kuah ikan bau peapi.'
       ],
       [
-        'nama' => 'Pelangi Boesemani',
-        'harga' => 85000,
-        'stok' => 10,
-        'gambar' => 'boesemanirainbow.jpg',
-        'deskripsi' => 'Ikan endemik Papua yang berwarna biru-oranye seperti pelangi.'
-      ],
-      [
-        'nama' => 'Arwana Super Red',
-        'harga' => 2500000,
-        'stok' => 3,
-        'gambar' => 'IkanArwanaSuperRed.jpg',
-        'deskripsi' => 'Arwana eksklusif asal Kalimantan dengan sisik merah menyala.'
-      ],
-      [
-        'nama' => 'Botia',
-        'harga' => 55000,
-        'stok' => 8,
-        'gambar' => 'IkanBotia.jpg',
-        'deskripsi' => 'Ikan corak belang hitam kuning, aktif dan cocok untuk akuarium besar.'
-      ],
-      [
-        'nama' => 'Zebra Danio Sumatera',
-        'harga' => 15000,
+        'nama' => 'Golla Kambu',
+        'harga' => 5000,
         'stok' => 20,
-        'gambar' => 'IkanZebra.jpg',
-        'deskripsi' => 'Ikan kecil cepat dengan pola garis-garis hitam putih khas.'
+        'gambar' => 'golla.jpeg',
+        'deskripsi' => 'Kue tradisional dari kelapa parut, gula merah, dan beras ketan yang manis dan legit.'
       ],
       [
-        'nama' => 'Ikan Belida',
-        'harga' => 120000,
-        'stok' => 5,
-        'gambar' => 'IkanBelida.jpg',
-        'deskripsi' => 'Bentuk tubuh pipih seperti pisau, gerakan lembut dan anggun.'
+        'nama' => 'Sambusa',
+        'harga' => 2000,
+        'stok' => 25,
+        'gambar' => 'sambusa.jpeg',
+        'deskripsi' => 'Makanan ringan berbentuk segitiga berisi daging cincang dan rempah, mirip pastel goreng.'
       ],
+      [
+        'nama' => 'Bikang',
+        'harga' => 3000,
+        'stok' => 18,
+        'gambar' => 'bikang.jpeg',
+        'deskripsi' => 'Kue tradisional lembut dan manis, berbentuk bulat pipih dan berpori seperti sarang lebah.'
+      ],
+      [
+        'nama' => 'Loka Sattai',
+        'harga' => 5000,
+        'stok' => 10,
+        'gambar' => 'loka.png',
+        'deskripsi' => 'Loka sattai adalah adonan ketan yang dipipihkan dan dimasak dalam air mendidih.'
+      ],
+      [
+        'nama' => 'Cucur',
+        'harga' => 7000,
+        'stok' => 15,
+        'gambar' => 'cucur.jpeg',
+        'deskripsi' => 'Kue cucur memiliki rasa manis dengan tekstur garing di tepi dan lembut di tengah.'
+      ],
+      [
+        'nama' => 'Kue Paso',
+        'harga' => 3000,
+        'stok' => 20,
+        'gambar' => 'paso.jpeg',
+        'deskripsi' => 'Kue tradisional dari tepung ketan berisi gula merah dan dibungkus daun pisang.'
+      ],
+      [
+        'nama' => 'Lokasari',
+        'harga' => 9000,
+        'stok' => 10,
+        'gambar' => 'lokasari.jpeg',
+        'deskripsi' => 'Pisang muda rebus disajikan dengan kuah santan manis, disukai sebagai hidangan penutup.'
+      ]
     ];
     @endphp
 
