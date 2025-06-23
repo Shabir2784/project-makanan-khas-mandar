@@ -1,4 +1,4 @@
-<h3 align="center">Toko Online Ikan Hias</h3>
+<h3 align="center">Toko Makanan Khas Mandar</h3>
 <br><br><br>
 
 <p align="center">
