@@ -7,11 +7,11 @@
 
 <br><br><br>
 
-<p align="center"><strong>NURMADINAH		D0223001
-MELISA			D0223302
+<p align="center"><strong>NURMADINAH		D0223001 <br/><br/>
+MELISA			D0223302 <br/><br/>
 SHABIR			D0223306</strong><br/>
+<br/><br/>
 Framework Web Based<br/></p>
-
 ---
 
 <h2>Role dan Fitur</h2>
