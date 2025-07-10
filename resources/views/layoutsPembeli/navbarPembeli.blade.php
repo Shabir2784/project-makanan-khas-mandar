@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="#">TokoIkan</a>
+        <a class="navbar-brand fw-bold" href="#">Toko makanan Khas Mandar</a>
 
         <form class="d-flex" method="GET" action="{{ route('pembeli.produk.cari') }}">
-            <input class="form-control me-2" type="search" placeholder="Cari Ikan Hias..." name="q">
+            <input class="form-control me-2" type="search" placeholder="Cari makanan..." name="q">
             <button class="btn btn-outline-success" type="submit">Cari</button>
         </form>
 
