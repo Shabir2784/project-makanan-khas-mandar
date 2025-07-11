@@ -6,7 +6,7 @@
 <div class="container mt-4">
     
     
-    <h2 class="mb-4">Makanan Khas Mandar</h2>
+    <h2 class="mb-4">Toko Makanan Khas Mandar</h2>
 
     <div class="row">
         @foreach ($produks as $produk)

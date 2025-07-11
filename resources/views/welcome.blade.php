@@ -89,7 +89,7 @@
       ],
       [
         'nama' => 'Kue Paso',
-        'harga' => 3000,
+        'harga' => 2000,
         'stok' => 20,
         'gambar' => 'paso.jpeg',
         'deskripsi' => 'Kue tradisional dari tepung ketan berisi gula merah dan dibungkus daun pisang.'

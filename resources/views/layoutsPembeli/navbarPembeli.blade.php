@@ -39,7 +39,7 @@
                     <li><hr class="dropdown-divider"></li>
                     <li>
                         <a class="dropdown-item text-danger" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">
-                            <i class="fas fa-sign-out-alt me-2 text-muted"></i> Logout
+                            <i class="fas fa-sign-out-alt me-2 text-muted"></i> Keluar
                         </a>
                     </li>
                 </ul>
