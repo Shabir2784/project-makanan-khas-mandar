@@ -88,7 +88,7 @@
         'deskripsi' => 'Kue cucur memiliki rasa manis dengan tekstur garing di tepi dan lembut di tengah.'
       ],
       [
-        'nama' => 'Kue Paso Mandar',
+        'nama' => 'Kue Paso',
         'harga' => 2000,
         'stok' => 20,
         'gambar' => 'paso.jpeg',
