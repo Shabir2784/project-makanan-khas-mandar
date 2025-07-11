@@ -8,7 +8,6 @@
         </form>
 
         <ul class="navbar-nav ms-auto">
-            {{-- Keranjang --}}
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('pembeli.keranjang') }}">
                     <i class="fas fa-shopping-cart me-1"></i> Keranjang
